@@ -31,3 +31,15 @@ body{
     
 }
 
+.post-body div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-body div:first-child i {
+    margin-right: 15px;
+}
+
+.post-body div:first-child i:last-child {
+    margin-left: auto;
+}
