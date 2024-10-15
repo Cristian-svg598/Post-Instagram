@@ -30,16 +30,18 @@ body {
     margin-right: 10px; 
 }
 
+/* El segundo div se quedaba en medio, por lo que hay que moverlo hacia la izquierda. */
 .post-header div:nth-child(2) {
     margin-right: auto; 
+    line-height: 5px;
 }
 
-.tresPuntos {
+.elipsis {
     margin:10px;
     margin-left: auto; 
 }
 
-.tresPuntos i {
+.elipsis i {
     font-size: 50px; 
     display: flex;
 }
