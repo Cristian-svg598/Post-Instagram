@@ -1,4 +1,4 @@
-body{
+body {
     background-color: aquamarine;
 }
 
@@ -10,25 +10,46 @@ body{
     align-items: center; 
     margin: 0 auto; 
 }
+
 .post-header {
     padding: 20px;
     display: flex;
-    width: 100%; 
+    width: 100%;
     align-items: center;
+    position: relative;
 }
+
+.html {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.html i {
+    font-size: 50px; 
+    margin-right: 10px; 
+}
+
+.post-header div:nth-child(2) {
+    margin-right: auto; 
+}
+
 .tresPuntos {
+    margin:10px;
     margin-left: auto; 
 }
-.html img, .tresPuntos img {
-    height: 50px; 
+
+.tresPuntos i {
+    font-size: 50px; 
     display: flex;
 }
-.post-img{
+
+.post-img {
     width: 100%;
 }
-.post-img img{
+
+.post-img img {
     width: 100%; 
-    
 }
 
 .post-body div:first-child {
